@@ -1,0 +1,5 @@
+shiny==1.1.0
+shinywidgets==0.3.3
+plotly==5.21.0
+ipywidgets==7.8.1
+pandas
