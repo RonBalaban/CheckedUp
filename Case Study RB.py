@@ -273,8 +273,6 @@ plt.show()
 # https://k6clpl-ron-balaban.shinyapps.io/checkedup-rsv-map/
 
 
-
-
 # Potential future analysis, connecting to NPI registry (https://npiregistry.cms.hhs.gov/search)
 # Share of NPIs that start with 1 or 2, as real NPIs do
 print(rsv["NPI"].str[0].value_counts().sort_index())
@@ -282,26 +280,9 @@ print("Look like real NPIs:", rsv["NPI"].str[0].isin(["1", "2"]).mean().round(3)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Can I build an SNA of Prescribers, to see the most interactive network?
+# Would need entities to build node/edge tables & centrality metrics
+
 
 
 
